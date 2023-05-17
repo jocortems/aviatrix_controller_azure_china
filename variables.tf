@@ -121,7 +121,6 @@ variable "enable_backup" {
 variable "icp_certificate_domain" {
   type = string
   description = "ICP Certificate domain. It can be added afterwards if it is not currently available"
-  default = "aviatrixazure.cbc-networks.com"
 }
 
 locals {
